@@ -1,0 +1,50 @@
+/* 
+Etiqueta Normal = Nada
+Etiqueta Universal = *
+Etiqueta Id = #
+Etiqueta class = .
+*/
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(206, 191, 177, 0.904);
+}
+h1{
+    color: rgb(38, 79, 155);
+}
+
+h2{
+    color: cornflowerblue;
+    margin-left: 0%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background-color: rgba(128, 128, 128, 0.527);
+    width: 80%;
+    margin: 0px auto; 
+    box-shadow: 0px 0px 10px 10px gray;
+    border: 1px solid blueviolet;
+}
+
+#header{
+    background-color: rgb(211, 199, 199);
+    height: 145px;
+}
+
+#imagen{
+    width: 130px;
+    height: 130px;
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#imagen img{
+    float: left;
+}
