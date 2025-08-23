@@ -80,12 +80,12 @@ body {
 }
 
 #lateral{
-    width: 20%;
+    width: 15%;
     min-height: 600px;
     float: left;
-    border: 1px solid red ;
+  
     margin-left: 10px;
-    border: 1px solid red;
+
 } 
 #lateral .block_aside{
   display: block;
@@ -130,31 +130,73 @@ input[types= "email"]:focus{
      color: black;
 }
 input[types= "button"],
-input[types= "submit"]{
+input[types= "submit"],
+.button{
      display: block;
      border-radius: 2px;
      padding: 5px;
      padding-left: 10px;
      padding-right: 10px;
      color: white;
-     background: "#2979CD";
+     background: #2979CD;
      border: 1PX solid #11608e;
      cursor: pointer;
-
-
-     
+}
+.button{
+    background-color: #33AE3D;
+    color: white !important;
+    text-decoration: none;
 }
 
+#central{
+    width: 80%;
+    min-height: 550px;
+    float: right;
+    border-left: 1px solid #ccc;
+    box-shadow: -5px -1px 5px #edd;
+    padding: 25px; ;
+}
+#central h1{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
 
+.product{
+    width: 30%;
+    border: 1px solid red;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
 
-
-
-
-
-
-
-
-
+}
+.product img{
+    height: 150px;
+    margin-bottom: 10px;
+}
+.product h2{
+    height: 15px;
+    margin-bottom: 10px;
+}
+.product p{
+    font-weight: bold;
+    counter-reset: #555;
+    margin-bottom: 10px;
+}
+.product a{
+    color: black;
+    text-decoration: 10px;
+}
+.product a:hover{
+    color: #555;
+}
 
 #footer{
     clear: both;
@@ -165,3 +207,4 @@ input[types= "submit"]{
     color: white;
     border-top: 5px solid #01B1EA;
 }
+
